@@ -1,3 +1,4 @@
+test
 = Spec::Rails
 
 * http://rspec.info
