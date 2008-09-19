@@ -158,9 +158,7 @@ module Spec
 
         protected
         def _assigns_hash_proxy
-          @_assigns_hash_proxy ||= AssignsHashProxy.new self do
-            @response.template
-          end
+          @_assigns_hash_proxy ||= AssignsHashProxy.new @controller
         end
 
         private
